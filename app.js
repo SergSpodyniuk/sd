@@ -74,7 +74,7 @@ const movies = [
           : b[property].localeCompare(a[property]);
       }
   
-      return 0; // Якщо типи не співпадають, не змінюємо їх
+      return 0;
     };
   }
 //4
